@@ -1,0 +1,22 @@
+[
+  {"id": 1, "question": "Сколько стоит тариф Про для CRM ClientFlow?", "expected_source": "Products.txt"},
+  {"id": 2, "question": "Как быстро доставляются цифровые лицензии?", "expected_source": "Delivery.txt"},
+  {"id": 3, "question": "Можно ли вернуть деньги за подписку через 20 дней?", "expected_source": "Returns.txt"},
+  {"id": 4, "question": "Куда отправлять заявление на возврат средств?", "expected_source": "Returns.txt"},
+  {"id": 5, "question": "Принимаете ли вы оплату банковскими картами?", "expected_source": "Payment.txt"},
+  {"id": 6, "question": "Как связаться с технической поддержкой?", "expected_source": "FAQ.txt"},
+  {"id": 7, "question": "Какой телефон у службы поддержки?", "expected_source": "FAQ.txt"},
+  {"id": 8, "question": "Как сменить тарифный план?", "expected_source": "FAQ.txt"},
+  {"id": 9, "question": "Есть ли у вас ERP-модуль для склада?", "expected_source": "Products.txt"},
+  {"id": 10, "question": "Работаете ли вы по безналу с юридическими лицами?", "expected_source": "Payment.txt"},
+  {"id": 11, "question": "Доставляете ли вы товары через СДЭК?", "expected_source": "Delivery.txt"},
+  {"id": 12, "question": "Какая стоимость базового тарифа ClientFlow?", "expected_source": "Products.txt"},
+  {"id": 13, "question": "В течение какого срока действует гарантия возврата?", "expected_source": "Returns.txt"},
+  {"id": 14, "question": "Круглосуточно ли работает поддержка?", "expected_source": "FAQ.txt"},
+  {"id": 15, "question": "Можно ли оплатить картой МИР?", "expected_source": "Payment.txt"},
+  {"id": 16, "question": "Что делает модуль StockControl?", "expected_source": "Products.txt"},
+  {"id": 17, "question": "Придет ли доступ на почту после оплаты?", "expected_source": "Delivery.txt"},
+  {"id": 18, "question": "Где находится раздел смены подписки?", "expected_source": "FAQ.txt"},
+  {"id": 19, "question": "Нужно ли использовать услугу для возврата средств?", "expected_source": "Returns.txt"},
+  {"id": 20, "question": "Какие платежные системы поддерживаются?", "expected_source": "Payment.txt"}
+]
