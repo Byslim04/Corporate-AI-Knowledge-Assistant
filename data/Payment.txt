@@ -1,1 +1,6 @@
-Оплата принимается банковскими картами (МИР, Visa, Mastercard) через защищенный шлюз, а также по безналичному расчету для юридических лиц.
+РћРїР»Р°С‚Р° РїСЂРёРЅРёРјР°РµС‚СЃСЏ Р±Р°РЅРєРѕРІСЃРєРёРјРё РєР°СЂС‚Р°РјРё (РњРР , Visa, Mastercard) С‡РµСЂРµР· Р·Р°С‰РёС‰РµРЅРЅС‹Р№ С€Р»СЋР·, Р° С‚Р°РєР¶Рµ РїРѕ Р±РµР·РЅР°Р»РёС‡РЅРѕРјСѓ СЂР°СЃС‡РµС‚Сѓ РґР»СЏ СЋСЂРёРґРёС‡РµСЃРєРёС… Р»РёС†.
+
+
+------------
+
+Payments are accepted via bank cards (MIR, Visa, Mastercard) through a secure gateway, as well as via bank transfer for legal entities (corporate clients).
