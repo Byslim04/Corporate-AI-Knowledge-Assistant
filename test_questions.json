@@ -1,22 +1,51 @@
 [
-  {"id": 1, "question": "Сколько стоит тариф Про для CRM ClientFlow?", "expected_source": "Products.txt"},
-  {"id": 2, "question": "Как быстро доставляются цифровые лицензии?", "expected_source": "Delivery.txt"},
-  {"id": 3, "question": "Можно ли вернуть деньги за подписку через 20 дней?", "expected_source": "Returns.txt"},
-  {"id": 4, "question": "Куда отправлять заявление на возврат средств?", "expected_source": "Returns.txt"},
-  {"id": 5, "question": "Принимаете ли вы оплату банковскими картами?", "expected_source": "Payment.txt"},
-  {"id": 6, "question": "Как связаться с технической поддержкой?", "expected_source": "FAQ.txt"},
-  {"id": 7, "question": "Какой телефон у службы поддержки?", "expected_source": "FAQ.txt"},
-  {"id": 8, "question": "Как сменить тарифный план?", "expected_source": "FAQ.txt"},
-  {"id": 9, "question": "Есть ли у вас ERP-модуль для склада?", "expected_source": "Products.txt"},
-  {"id": 10, "question": "Работаете ли вы по безналу с юридическими лицами?", "expected_source": "Payment.txt"},
-  {"id": 11, "question": "Доставляете ли вы товары через СДЭК?", "expected_source": "Delivery.txt"},
-  {"id": 12, "question": "Какая стоимость базового тарифа ClientFlow?", "expected_source": "Products.txt"},
-  {"id": 13, "question": "В течение какого срока действует гарантия возврата?", "expected_source": "Returns.txt"},
-  {"id": 14, "question": "Круглосуточно ли работает поддержка?", "expected_source": "FAQ.txt"},
-  {"id": 15, "question": "Можно ли оплатить картой МИР?", "expected_source": "Payment.txt"},
-  {"id": 16, "question": "Что делает модуль StockControl?", "expected_source": "Products.txt"},
-  {"id": 17, "question": "Придет ли доступ на почту после оплаты?", "expected_source": "Delivery.txt"},
-  {"id": 18, "question": "Где находится раздел смены подписки?", "expected_source": "FAQ.txt"},
-  {"id": 19, "question": "Нужно ли использовать услугу для возврата средств?", "expected_source": "Returns.txt"},
-  {"id": 20, "question": "Какие платежные системы поддерживаются?", "expected_source": "Payment.txt"}
+  {"id": 1, "question": "РљР°РєРѕРІР° СЃС‚РѕРёРјРѕСЃС‚СЊ CRM ClientFlow?", "expected_source": "Products.txt"},
+  {"id": 2, "question": "РљР°Рє РґРѕСЃС‚Р°РІР»СЏСЋС‚СЃСЏ С†РёС„СЂРѕРІС‹Рµ РїСЂРѕРґСѓРєС‚С‹?", "expected_source": "Delivery.txt"},
+  {"id": 3, "question": "РљР°РєРѕРІС‹ СѓСЃР»РѕРІРёСЏ РІРѕР·РІСЂР°С‚Р° СЃСЂРµРґСЃС‚РІ Р·Р° С†РёС„СЂРѕРІС‹Рµ РїРѕРґРїРёСЃРєРё?", "expected_source": "Returns.txt"},
+  {"id": 4, "question": "РљСѓРґР° СЃР»РµРґСѓРµС‚ РѕС‚РїСЂР°РІР»СЏС‚СЊ Р·Р°РїСЂРѕСЃ РЅР° РІРѕР·РІСЂР°С‚ СЃСЂРµРґСЃС‚РІ?", "expected_source": "Returns.txt"},
+  {"id": 5, "question": "РљР°РєРёРµ СЃРїРѕСЃРѕР±С‹ РѕРїР»Р°С‚С‹ РїРѕРґРґРµСЂР¶РёРІР°СЋС‚СЃСЏ?", "expected_source": "Payment.txt"},
+  {"id": 6, "question": "РљР°Рє СЏ РјРѕРіСѓ СЃРІСЏР·Р°С‚СЊСЃСЏ СЃ С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРґРґРµСЂР¶РєРѕР№?", "expected_source": "FAQ.txt"},
+  {"id": 7, "question": "РљР°Рє РјРЅРµ РёР·РјРµРЅРёС‚СЊ СЃРІРѕР№ С‚Р°СЂРёС„РЅС‹Р№ РїР»Р°РЅ?", "expected_source": "FAQ.txt"},
+  {"id": 8, "question": "Р”РѕСЃС‚СѓРїРЅР° Р»Рё РїРѕРґРґРµСЂР¶РєР° РІ СЂРµР¶РёРјРµ 24/7?", "expected_source": "FAQ.txt"},
+  {"id": 9, "question": "РљР°Рє РЅР°Р·С‹РІР°РµС‚СЃСЏ ERP-РјРѕРґСѓР»СЊ РґР»СЏ СЃРєР»Р°РґСЃРєРѕРіРѕ СѓС‡РµС‚Р°?", "expected_source": "Products.txt"},
+  {"id": 10, "question": "РњРѕРіСѓС‚ Р»Рё СЋСЂРёРґРёС‡РµСЃРєРёРµ Р»РёС†Р° РѕРїР»Р°С‡РёРІР°С‚СЊ Р±Р°РЅРєРѕРІСЃРєРёРј РїРµСЂРµРІРѕРґРѕРј?", "expected_source": "Payment.txt"},
+  {"id": 11, "question": "Р”РѕСЃС‚Р°РІР»СЏСЋС‚СЃСЏ Р»Рё С„РёР·РёС‡РµСЃРєРёРµ РЅРѕСЃРёС‚РµР»Рё С‡РµСЂРµР· РЎР”Р­Рљ?", "expected_source": "Delivery.txt"},
+  {"id": 12, "question": "РљР°РєРёРµ С‚Р°СЂРёС„РЅС‹Рµ РїР»Р°РЅС‹ РµСЃС‚СЊ Сѓ ClientFlow?", "expected_source": "Products.txt"},
+  {"id": 13, "question": "РњРѕРіСѓ Р»Рё СЏ РїРѕР»СѓС‡РёС‚СЊ РІРѕР·РІСЂР°С‚ СЃСЂРµРґСЃС‚РІ, РµСЃР»Рё СѓСЃР»СѓРіР° СѓР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°Р»Р°СЃСЊ?", "expected_source": "Returns.txt"},
+  {"id": 14, "question": "Р•СЃС‚СЊ Р»Рё РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° РґР»СЏ СЃРІСЏР·Рё СЃ РїРѕРґРґРµСЂР¶РєРѕР№?", "expected_source": "FAQ.txt"},
+  {"id": 15, "question": "РџСЂРѕРІРѕРґСЏС‚СЃСЏ Р»Рё С‚СЂР°РЅР·Р°РєС†РёРё С‡РµСЂРµР· Р·Р°С‰РёС‰РµРЅРЅС‹Р№ С€Р»СЋР·?", "expected_source": "Payment.txt"},
+  {"id": 16, "question": "Р”Р»СЏ С‡РµРіРѕ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ StockControl?", "expected_source": "Products.txt"},
+  {"id": 17, "question": "РљР°Рє Р±С‹СЃС‚СЂРѕ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ С†РёС„СЂРѕРІРѕР№ РґРѕСЃС‚СѓРї РїРѕСЃР»Рµ РѕРїР»Р°С‚С‹?", "expected_source": "Delivery.txt"},
+  {"id": 18, "question": "Р“РґРµ СЂР°СЃРїРѕР»РѕР¶РµРЅ СЂР°Р·РґРµР» СЃ РїРѕРґРїРёСЃРєР°РјРё?", "expected_source": "FAQ.txt"},
+  {"id": 19, "question": "РљР°РєРѕРІР° РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РїРµСЂРёРѕРґР° РІРѕР·РІСЂР°С‚Р° СЃСЂРµРґСЃС‚РІ РІ РґРЅСЏС…?", "expected_source": "Returns.txt"},
+  {"id": 20, "question": "РџСЂРёРЅРёРјР°СЋС‚СЃСЏ Р»Рё Рє РѕРїР»Р°С‚Рµ РєР°СЂС‚С‹ Visa Рё Mastercard?", "expected_source": "Payment.txt"}
+]
+
+
+
+---------------
+
+
+
+[
+  {"id": 1, "question": "What is the price of the CRM ClientFlow?", "expected_source": "Products.txt"},
+  {"id": 2, "question": "How are digital products delivered?", "expected_source": "Delivery.txt"},
+  {"id": 3, "question": "What are the terms for digital subscription refunds?", "expected_source": "Returns.txt"},
+  {"id": 4, "question": "Where should I send a refund request?", "expected_source": "Returns.txt"},
+  {"id": 5, "question": "What payment methods are supported?", "expected_source": "Payment.txt"},
+  {"id": 6, "question": "How can I contact technical support?", "expected_source": "FAQ.txt"},
+  {"id": 7, "question": "How do I change my subscription plan?", "expected_source": "FAQ.txt"},
+  {"id": 8, "question": "Is support available 24/7?", "expected_source": "FAQ.txt"},
+  {"id": 9, "question": "What is the ERP module for inventory called?", "expected_source": "Products.txt"},
+  {"id": 10, "question": "Can corporate clients pay via bank transfer?", "expected_source": "Payment.txt"},
+  {"id": 11, "question": "Are physical media delivered via CDEK?", "expected_source": "Delivery.txt"},
+  {"id": 12, "question": "What pricing plans does ClientFlow have?", "expected_source": "Products.txt"},
+  {"id": 13, "question": "Can I get a refund if I used the service?", "expected_source": "Returns.txt"},
+  {"id": 14, "question": "Is there a phone number for support?", "expected_source": "FAQ.txt"},
+  {"id": 15, "question": "Are transactions processed through a secure gateway?", "expected_source": "Payment.txt"},
+  {"id": 16, "question": "What does StockControl do?", "expected_source": "Products.txt"},
+  {"id": 17, "question": "How fast is digital access delivered after payment?", "expected_source": "Delivery.txt"},
+  {"id": 18, "question": "Where is the subscription section located?", "expected_source": "FAQ.txt"},
+  {"id": 19, "question": "What is the refund period duration in days?", "expected_source": "Returns.txt"},
+  {"id": 20, "question": "Are Visa and Mastercard accepted for payment?", "expected_source": "Payment.txt"}
 ]
