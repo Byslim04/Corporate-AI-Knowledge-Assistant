@@ -2,9 +2,9 @@ import os
 import json
 
 print("=== Corporate AI Knowledge Assistant Demo ===")
-print("Инициализация базы знаний компании (company_knowledge)...")
+print("Reading and preparing documents (company_knowledge)...")
 
-# Демонстрация загрузки документов и структуры payload (Source, Page)
+# Preparing document structure and payload (Source, Page)
 documents_dir = "data"
 chunks_with_payload = []
 
@@ -14,7 +14,7 @@ if os.path.exists(documents_dir):
             file_path = os.path.join(documents_dir, filename)
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
-                # Имитация чанкирования и добавления payload
+                # Adding text and file metadata to payload
                 chunks_with_payload.append({
                     "chunk_text": content,
                     "payload": {
@@ -22,14 +22,14 @@ if os.path.exists(documents_dir):
                         "Page": "Page 1"
                     }
                 })
-    print(f"[Успех] Загружено документов: {len(chunks_with_payload)}")
+    print(f"вњ… Prepared chunks: {len(chunks_with_payload)}")
 else:
-    print("[Ошибка] Папка data не найдена!")
+    print("вќЊ Error: 'data' folder not found!")
 
-# Загрузка тестовых вопросов
+# Reading test questions
 if os.path.exists("test_questions.json"):
     with open("test_questions.json", "r", encoding="utf-8") as f:
         test_questions = json.load(f)
-        print(f"[Успех] Загружено тестовых вопросов: {len(test_questions)}")
+        print(f"вњ… Loaded test questions: {len(test_questions)}")
 
-print("\nПайплайн n8n (Question -> Embedding -> Qdrant -> Top-K -> Context -> LLM -> Answer) готов к интеграции!")
+print("\nn8n pipeline (Question -> Embedding -> Qdrant -> Top-K -> Context -> LLM -> Answer) data is ready!")
