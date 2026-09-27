@@ -22,3 +22,36 @@
 - Vector DB: Qdrant
 - Embeddings & LLM: OpenAI / HuggingFace
 - Language: Python
+
+
+----------
+
+
+# Corporate AI Knowledge Assistant
+
+This project represents a corporate AI assistant based on RAG (Retrieval-Augmented Generation) architecture, integrated via n8n and the Qdrant vector database.
+
+## ⚙️ Architecture and Pipeline (n8n Workflow)
+
+The user query processing pipeline consists of the following steps:
+
+1. Question — receiving the user's question.
+2. Embedding — vectorization of the query text.
+3. Qdrant (Vector Database) — searching for similar vectors in the company_knowledge collection.
+4. Top-K — selecting the most relevant fragments.
+5. Context — forming a unified context from the found chunks.
+6. LLM — generating a response by the language model strictly based on the context.
+7. Answer — issuing the response with mandatory indication of the Source and Page metadata.
+
+## 📂 Project Structure
+
+* data/ — company text documents (products, delivery, returns, payment, FAQ).
+* test_questions.json — a set of 20 test questions to check the assistant's accuracy.
+* main.py — a demonstration script for data initialization and pipeline verification.
+
+## 🛠️ Technologies
+
+* Low-code / Workflow: n8n
+* Vector DB: Qdrant
+* Embeddings & LLM: OpenAI / HuggingFace
+* Language: Python
