@@ -1,1 +1,6 @@
-Наша компания разрабатывает облачные решения для бизнеса. Основные продукты: CRM-система "ClientFlow" (тарифы: Базовый — 1500 руб/мес, Про — 4500 руб/мес) и ERP-модуль "StockControl" для складского учета.
+РќР°С€Р° РєРѕРјРїР°РЅРёСЏ СЂР°Р·СЂР°Р±Р°С‚С‹РІР°РµС‚ РѕР±Р»Р°С‡РЅС‹Рµ СЂРµС€РµРЅРёСЏ РґР»СЏ Р±РёР·РЅРµСЃР°. РћСЃРЅРѕРІРЅС‹Рµ РїСЂРѕРґСѓРєС‚С‹: CRM-СЃРёСЃС‚РµРјР° "ClientFlow" (С‚Р°СЂРёС„С‹: Р‘Р°Р·РѕРІС‹Р№ вЂ” 1500 СЂСѓР±/РјРµСЃ, РџСЂРѕ вЂ” 4500 СЂСѓР±/РјРµСЃ) Рё ERP-РјРѕРґСѓР»СЊ "StockControl" РґР»СЏ СЃРєР»Р°РґСЃРєРѕРіРѕ СѓС‡РµС‚Р°.
+
+------------
+
+Our company develops cloud-based solutions for business.
+Core products: "ClientFlow" CRM system (pricing plans: Basic - 1,500 RUB/month, Pro - 4500 RUB/month) and "StockControl" ERP module for inventory management.
